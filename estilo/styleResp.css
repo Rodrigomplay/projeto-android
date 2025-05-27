@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor0: #F06BF2;
+    --cor1: #7630D9;
+    --cor2: #532473;
+    --cor3: #79F2E6;
+    --cor4: #04588C;
+    --cor5: #031c2c;
+    --cor6: #c5ebd6;
+
+    --fonte-padrao: segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+body {
+    background-color: var(--cor6);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    padding: 40px;
+}
+header > h1 {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left:10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+nav {
+    border-top: 1px solid var(--cor3);
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.267);
+}
+nav > a {
+    color: var(--cor6);
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 0px 0px 10px rgba(0, 0, 0, 0.379);
+}
+nav > a:hover {
+    background-color: var(--cor4);
+    color: var(--cor0);
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: white;
+}
+main h1 {
+    font-family: var(--fonte-padrao);
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, var(--cor5), var(--cor0)); 
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+main  h2 {
+    font-family: var(--fonte-padrao);
+    font-size: 1.3em;
+    padding: 6px; 
+    text-indent: 20px;  
+}
+
+main p {
+    margin-bottom: 20px;
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+
+main img {
+    max-width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
+    margin: auto;
+    display: block;
+}
+
+main h4 {
+    background-image: linear-gradient(to right, var(--cor2), var(--cor0));
+    color: var(--cor6);
+}
+main pre {
+    background-color: var(--cor6);
+    font-family: monospace;
+    font-size: 1.1em;
+    margin: auto;
+    display: flexbox;
+}
+main h3 {
+    font-family: var(--fonte-padrao);
+    border-radius:5px 5px 0px 0px;
+    padding: 2px;
+    text-indent: 20px;;
+    
+}
+main ul, ol{
+    list-style-position: inside;
+    font-family: var(--fonte-padrao);
+    font-size: 1.1em;
+    padding: 2px 0px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    border-radius: 0px 0px 5px 5px; 
+}
+main li {
+    text-indent: 30px;
+}
+footer {
+    font-size: 1.1em;
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
